@@ -22,6 +22,7 @@ public class FetchFlightsTask {
         this.airportRepository = airportRepository;
     }
 
+    //@Scheduled(cron = "0 0/5 * * * *") // Run every 5 minutes
     @Scheduled(cron = "0 0 0 * * *") 
     public void runScheduledTask() {
         // some api call is made here
