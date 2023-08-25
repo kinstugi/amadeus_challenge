@@ -28,9 +28,8 @@ public class Flight {
     private LocalDateTime departureDateTime;
     private LocalDateTime returnDateTime;
     
-    public Flight(long id, double price, Airport arrivalAirport, Airport departureAirport,
+    public Flight(double price, Airport arrivalAirport, Airport departureAirport,
             LocalDateTime departureDateTime, LocalDateTime returnDateTime) {
-        this.id = id;
         this.price = price;
         this.arrivalAirport = arrivalAirport;
         this.departureAirport = departureAirport;

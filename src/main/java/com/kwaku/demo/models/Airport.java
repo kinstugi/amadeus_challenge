@@ -15,8 +15,7 @@ public class Airport {
     public Airport() {
     }
 
-    public Airport(long id, String city) {
-        this.id = id;
+    public Airport(String city) {
         this.city = city;
     }
 
